@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facial expressions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>facial expressions</h1>
+        <table id="calendar">
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <!-- Here you'll generate the checkboxes dynamically -->
+        </table>
+        <div class="progress-bar">
+            <label for="progress-checked" class="progress-label">Checked Progress:</label>
+            <div class="progress" id="progress-checked"></div>
+            <p id="progress-text-checked" class="progress-text">0.00%</p>
+        </div>
+        <div class="progress-bar">
+            <label for="progress-unchecked" class="progress-label">Unchecked Progress:</label>
+            <div class="progress" id="progress-unchecked"></div>
+            <p id="progress-text-unchecked" class="progress-text">0.00%</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
